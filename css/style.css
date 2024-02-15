@@ -1,0 +1,35 @@
+:root {
+
+    /* Colors */
+    --clr-bg-100:hsl(0, 0%, 100%);
+    --clr-heading: hsl(54, 77%, 75%);
+    --clr-brushes: hsl(157, 100%, 49%);
+    --clr-frames: hsl(0, 79%, 72%);
+    --clr-paint: hsl(197, 71%, 73%);
+    --clr-span: hsl(240, 100%, 50%);
+    
+    /* Font Family */
+    --ff-main: 'Helvetica', sans-serif;
+
+    /* Font Style */
+    --fw-regular: 400;
+    --fw-light: 100;
+    --fw-bold: 700;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1140px;
+}
+
+h1 {
+  font-family: var(--ff-main);
+}
