@@ -11,17 +11,19 @@
   /* Font Family */
   --ff-main: "Helvetica", sans-serif;
 
-  /* Font Style */
+  /* Font weights */
   --fw-regular: 400;
   --fw-light: 100;
   --fw-bold: 700;
 
+  /* Font sizes */
   --fs-small: 0.275rem;
   --fs-regular: 1rem;
   --fs-large: 2rem;
   --fs-XL: 4rem;
   --fs-xxl: 6.25rem;
 }
+
 /*******************************/
 *,
 *::before,
@@ -43,10 +45,10 @@ body {
   border: 2px solid var(--clr-border);
 }
 
+/* HEADER SECTION */
 header {
   position: relative;
-  margin: 80px 5px;
-  background-color: var(--clr-main);
+  margin: 80px 10px;
 }
 
 h1 {
@@ -57,10 +59,17 @@ h1 {
   color: var(--clr-heading);
 }
 
+/* MAIN SECTION */
+
+main {
+  margin: 0px 10px;
+}
+
 h2 {
   font-size: var(--fs-large);
   font-weight: var(--fw-bold);
   color: var(--clr-main);
+  margin-bottom: 30px;
 }
 
 .heading-brushes {
