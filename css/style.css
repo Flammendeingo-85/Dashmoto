@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --clr-bg-100: hsl(0, 0%, 100%);
+  --clr-background: hsl(0, 0%, 100%);
   --clr-heading: hsl(54, 77%, 75%);
   --clr-brushes: hsl(157, 100%, 49%);
   --clr-frames: hsl(0, 79%, 72%);
