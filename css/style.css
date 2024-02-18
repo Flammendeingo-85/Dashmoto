@@ -6,6 +6,7 @@
   --clr-frames: hsl(0, 79%, 72%);
   --clr-paint: hsl(197, 71%, 73%);
   --clr-span: hsl(240, 100%, 50%);
+  --clr-border: hsl(0, 100%, 50%);
 
   /* Font Family */
   --ff-main: "Helvetica", sans-serif;
@@ -39,7 +40,7 @@ body {
   width: 1250px;
   margin: 100px auto;
   background-color: var(--clr-main);
-  border: 1px solid red;
+  border: 2px solid var(--clr-border);
 }
 
 header {
