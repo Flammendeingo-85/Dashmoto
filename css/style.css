@@ -30,8 +30,22 @@
   padding: 0;
 }
 
+html {
+  background-color: lightgray;
+}
+
 body {
   font-family: var(--ff-main);
+  width: 1250px;
+  margin: 100px auto;
+  background-color: var(--clr-main);
+  border: 1px solid red;
+}
+
+header {
+  position: relative;
+  margin: 80px 5px;
+  background-color: var(--clr-main);
 }
 
 h1 {
