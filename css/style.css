@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --clr-background: hsl(0, 0%, 100%);
+  --clr-main: hsl(0, 0%, 100%);
   --clr-heading: hsl(54, 77%, 75%);
   --clr-brushes: hsl(157, 100%, 49%);
   --clr-frames: hsl(0, 79%, 72%);
@@ -18,6 +18,8 @@
   --fs-small: 0.275rem;
   --fs-regular: 1rem;
   --fs-large: 2rem;
+  --fs-XL: 4rem;
+  --fs-xxl: 6.25rem;
 }
 /*******************************/
 *,
@@ -29,9 +31,35 @@
 }
 
 body {
-  width: 1140px;
+  font-family: var(--ff-main);
 }
 
 h1 {
-  font-family: var(--ff-main);
+  text-align: center;
+  font-size: var(--fs-xxl);
+  font-weight: var(--fw-bold);
+  background-image: url("/img/pattern.jpeg");
+  color: var(--clr-heading);
+}
+
+h2 {
+  font-size: var(--fs-large);
+  font-weight: var(--fw-bold);
+  color: var(--clr-main);
+}
+
+.heading-brushes {
+  background-color: var(--clr-brushes);
+}
+
+.heading-frames {
+  background-color: var(--clr-frames);
+}
+
+.heading-paint {
+  background-color: var(--clr-paint);
+}
+
+span {
+  color: var(--clr-span);
 }
