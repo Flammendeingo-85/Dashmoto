@@ -1,6 +1,6 @@
 :root {
   /* Colors */
-  --clr-main: hsl(0, 0%, 100%);
+  --clr-bg-main: hsl(0, 0%, 100%);
   --clr-heading: hsl(54, 77%, 75%);
   --clr-brushes: hsl(157, 100%, 49%);
   --clr-frames: hsl(0, 79%, 72%);
@@ -42,7 +42,7 @@ body {
   font-family: var(--ff-main);
   width: 1200px;
   margin: 100px auto;
-  background-color: var(--clr-main);
+  background-color: var(--clr-bg-main);
   border: 2px solid var(--clr-border);
 }
 
