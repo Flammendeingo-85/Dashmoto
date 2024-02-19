@@ -7,6 +7,7 @@
   --clr-paint: hsl(197, 71%, 73%);
   --clr-span: hsl(240, 100%, 50%);
   --clr-border: hsl(0, 100%, 50%);
+  --clr-bg-html: hsl(0, 0%, 83%);
 
   /* Font Family */
   --ff-main: "Helvetica", sans-serif;
@@ -20,11 +21,11 @@
   --fs-small: 0.275rem;
   --fs-regular: 1rem;
   --fs-large: 2rem;
-  --fs-XL: 4rem;
-  --fs-xxl: 6.25rem;
+  --fs-xl: 6rem;
 }
 
 /*******************************/
+
 *,
 *::before,
 *::after {
@@ -34,12 +35,12 @@
 }
 
 html {
-  background-color: lightgray;
+  background-color: var(--clr-bg-html);
 }
 
 body {
   font-family: var(--ff-main);
-  width: 1250px;
+  width: 1200px;
   margin: 100px auto;
   background-color: var(--clr-main);
   border: 2px solid var(--clr-border);
@@ -53,7 +54,7 @@ header {
 
 h1 {
   text-align: center;
-  font-size: var(--fs-xxl);
+  font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
   background-image: url("/img/pattern.jpeg");
   color: var(--clr-heading);
@@ -72,6 +73,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+img {
+  margin-bottom: 25px;
+}
+
 .heading-brushes {
   background-color: var(--clr-brushes);
 }
@@ -84,6 +89,13 @@ h2 {
   background-color: var(--clr-paint);
 }
 
+
+p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 span {
   color: var(--clr-span);
+  font-weight: var(--fw-bold);
 }
