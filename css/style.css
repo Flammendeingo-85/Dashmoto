@@ -56,7 +56,10 @@ h1 {
   text-align: center;
   font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
-  background-image: url("/img/pattern.jpeg");
+  background: url("/img/pattern.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--clr-heading);
 }
 
@@ -88,7 +91,6 @@ img {
 .heading-paint {
   background-color: var(--clr-paint);
 }
-
 
 p {
   margin-top: 25px;
